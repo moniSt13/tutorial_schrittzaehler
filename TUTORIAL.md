@@ -87,6 +87,7 @@ input.onButtonPressed(Button.AB, function () {
 
 
 ## Run!
-Auf die Plätze - fertig - los! Dein Schrittzähler ist nun fertig. Probiere ihn gleich aus.
+### Auf die Plätze - fertig - los!
+Dein Schrittzähler ist nun fertig. Probiere ihn gleich aus.
 
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
