@@ -9,6 +9,7 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/monist13/tutorial_schrittzaehler** suchen und importieren
+* start turotial: **https://makecode.microbit.org/#tutorial:github:monist13/tutorial_schrittzaehler/TUTORIAL**
 
 ## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/monist13/tutorial_schrittzaehler/workflows/MakeCode/badge.svg)
 
