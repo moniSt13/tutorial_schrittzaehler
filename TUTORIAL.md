@@ -61,7 +61,7 @@ input.onButtonPressed(Button.A, function () {
 ## überprüfen ob du mehr wie 20 Schritte zurückgelegt hast
 ### Für die Profis:
 Du möchtest überprüfen, ob du mehr wie 20 Schritte zurückgelegt hast, ``||input:wenn Knopf A+B gedrückt||`` wurde.
-``||logic:Wenn __________ dann||`` deine Variable ``||variables:Anzahl_Schritte||`` größer oder gleich (>=) 20 ist, deine Variable soll ein glücklicher Smiley mit Hilfe von ``||basic:zeige LEDs||`` am Display ausgegeben werden. Male dir deinen Smiley in dem du die LEDs die leuchten sollen markierst. Ansonsten (weniger wie 20 Schritte), soll ein trauriger Smiley mit Hilfe von ``||basic:zeige LEDs||`` angezeigt werden.
+``||logic:Wenn __________ dann||`` deine Variable ``||variables:Anzahl_Schritte||`` größer oder gleich (>=) 20 ist, soll ein glücklicher Smiley mit Hilfe von ``||basic:zeige LEDs||`` am Display ausgegeben werden. Male dir deinen Smiley in dem du die LEDs die leuchten sollen markierst. Ansonsten (weniger wie 20 Schritte), soll ein trauriger Smiley mit Hilfe von ``||basic:zeige LEDs||`` angezeigt werden.
 
 ```blocks
 input.onButtonPressed(Button.AB, function () {
