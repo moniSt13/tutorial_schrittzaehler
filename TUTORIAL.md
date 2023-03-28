@@ -38,7 +38,7 @@ basic.forever(function() {
 
 
 ## Lösche deine Schritte
-Du möchtest wieder anfangen deine Schritte neu zu zählen. Lösche deshalb deine gespeicherte Variable ``||variables:Anzahl_Schritte||`` ``||input:wenn Knopf A gedrückt||`` ist. Achtung: Auf welchen Wert musst du die Variable ``||variables:Anzahl_Schritte||`` setzen?
+Du möchtest wieder anfangen deine Schritte neu zu zählen. Setze den Wert deiner gespeicherten Variable ``||variables:Anzahl_Schritte||`` ``||input:wenn Knopf A gedrückt||`` zurück. Achtung: Auf welchen Wert musst du die Variable ``||variables:Anzahl_Schritte||`` setzen?
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -60,8 +60,8 @@ input.onButtonPressed(Button.A, function () {
 
 ## überprüfen ob du mehr wie 20 Schritte zurückgelegt hast
 ### Für die Profis:
-Du möchtest überprüfen, ob du mehr wie 20 Schritte zurückgelegt hast ``||input:wenn Knopf A+B gedrückt||`` wurden.
-Wenn ``||logik:wenn dann||`` deine Variable ``||basic:Anzahl_Schritte||`` größer oder gleich (>=) 20 ist, deine Variable soll ein glücklicher Smiley mit Hilfe von ``||basic:zeige LEDs||`` am Display ausgegeben werden. Male dir deinen Smiley in dem du die LEDs die leuchten sollen markierst. Ansonsten (weniger wie 20 Schritte), soll ein trauriger Smiley mit Hilfe von ``||basic:zeige LEDs||`` angezeigt werden.
+Du möchtest überprüfen, ob du mehr wie 20 Schritte zurückgelegt hast, ``||input:wenn Knopf A+B gedrückt||`` wurde.
+``||logic:Wenn __________ dann||`` deine Variable ``||variables:Anzahl_Schritte||`` größer oder gleich (>=) 20 ist, deine Variable soll ein glücklicher Smiley mit Hilfe von ``||basic:zeige LEDs||`` am Display ausgegeben werden. Male dir deinen Smiley in dem du die LEDs die leuchten sollen markierst. Ansonsten (weniger wie 20 Schritte), soll ein trauriger Smiley mit Hilfe von ``||basic:zeige LEDs||`` angezeigt werden.
 
 ```blocks
 input.onButtonPressed(Button.AB, function () {
